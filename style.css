@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#soatOyna {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 200px;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 700;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+body{
+    background: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+
+.div {
+    font-size: 90px;
+    font-weight: 700;
+    padding-left: 180px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #soatOyna {
+   font-size: 100px;
+    }
+
+  .div {
+    padding: 0;
+    text-align: center;
+    font-size: 65px;
+  }
+  }
